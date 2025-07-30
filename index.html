@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Corte Final edição de vídeo profissional com serviços para vídeos pessoais, institucionais e criativos. Transformamos ideias em imagens.">
+<meta name="keywords" content="edição de vídeo, corte final, produtor audiovisual, restauração de fotos, HQ infantil, motion design, portfólio">
+<meta name="author" content="Wagner Antonelo">
+<meta name="robots" content="index, follow">
+
+  <title>Wagner Antonelo - Editor Multimídia</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById('nav-links');
+    nav.classList.toggle('active');
+  }
+</script>
+
+<body>
+  <div class="hero">
+    <div class="hero-overlay">
+      <h1>Wagner Antonelo</h1>
+      <p>Editor de Imagem e Vídeo | 14 anos de experiência</p>
+      <a href="#sobre" class="btn">Saiba mais</a>
+    </div>
+  </div>
+
+  <nav class="nav-bar">
+  <div class="nav-container">
+    <div class="logo">Corte Final</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou editor de imagem com 14 anos de experiência em televisão, atualmente no Grupo RIC (afiliada da Record no Paraná) e na Rede CNT. <br>
+
+    Tenho paixão por contar histórias por meio do vídeo e uma sólida vivência em ambientes de estúdio e pós-produção.<br>
+
+Durante 7 anos, trabalhei na preparação de estúdios para gravação de videoaulas, operando câmeras, áudio e switcher, além de controlar a exibição de materiais de apoio em tempo real.<b> Paralelamente, atuei por 4 anos na edição de videoaulas e conteúdos institucionais no IESDE Brasil, desenvolvendo materiais didáticos de alto padrão.
+
+Como freelancer, presto serviços de edição e finalização de vídeos nos horários disponíveis. Já colaborei com emissoras e instituições como TV Evangelizar, IURD, Estação Primeira (Canal 20 – NET Curitiba), Rede Massa, Federação Paranaense de Futebol, entre outros clientes locais.
+
+</p>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos em Destaque</h2>
+    <div class="grid">
+  <div class="card">
+    <img src="img/corte-final.png" alt="corte-final">
+    <h3>Corte Final</h3>
+        <p>Edição especializado em vídeos pessoais, publicitários e institucionais.</p>
+      </div>
+      <div class="card">
+    <img src="img/restaurafotos.jpg" alt="restaurafotos">
+    <h3>Restauração de fotos</h3>
+        <p>Tratamento de fotos envelhecidas, rasuradas ou danificadas. Sua lembrança guardada com carinho.</p>
+      </div>
+      <div class="card">
+    <img src="img/hq-infantil.png" alt="hq-infantil">
+    <h3>HQ Infantil</h3>
+        <p>Ilustração e edição de HQ voltada ao público infantil com temática criativa, educativa para lembrança de aniversário de seu filho</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+  <h2>Entre em Contato</h2>
+
+  <form class="formulario" action="https://formsubmit.co/wantonelo@gmail.com" method="POST">
+  <input type="text" name="_honey" style="display:none">
+  <input type="hidden" name="_captcha" value="false">
+
+  <input type="text" name="nome" placeholder="Seu nome" required>
+  <input type="email" name="email" placeholder="Seu e-mail" required>
+  <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+  <button type="submit">Enviar</button>
+</form>
+
+
+  <div class="social">
+    <a href="https://www.instagram.com/wantonelo" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/wagner-antonelo-7139818a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://wa.me/5541996623980" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  </div>
+</section>
+  
+  <footer>
+    <p>&copy; 2025 Wagner Antonelo. Todos os direitos reservados.</p>
+  </footer>
+
+  <button id="btn-topo" title="Voltar ao topo">
+  ↑
+</button>
+
+<script>
+  const btnTopo = document.getElementById("btn-topo");
+
+  window.onscroll = function () {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+      btnTopo.style.display = "block";
+    } else {
+      btnTopo.style.display = "none";
+    }
+  };
+
+  btnTopo.onclick = function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+</script>
+
+
+</body>
+</html>
